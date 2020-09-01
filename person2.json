@@ -1,0 +1,32 @@
+{
+  "firstName": "Phil",
+  "lastName": "Jones",
+  "isAlive": true,
+  "age": 39,
+  "address": {
+    "streetAddress": "10 square Street",
+    "city": "San Jose",
+    "state": "CA",
+    "postalCode": "95101-1500"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "324 756-4567"
+    },
+    {
+      "type": "office",
+      "number": "478 888-7890"
+    }
+  ],
+  "children": [
+    {
+      "name": "Oliver",
+      "age": 11
+    }
+  ],
+  "spouse": {
+    "name": "Susan",
+    "age": 37
+  }
+}
