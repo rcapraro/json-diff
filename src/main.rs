@@ -1,4 +1,5 @@
 mod constants;
+mod mismatch;
 
 use std::path::PathBuf;
 use structopt::StructOpt;
@@ -15,18 +16,6 @@ struct Opt {
 
     /// Input file 2
     file2: PathBuf,
-
-   /* /// Where to write the output: to `stdout` or `file`
-    #[structopt(short)]
-    out_type: String,
-
-    /// File name: only required when `out-type` is set to `file`
-    #[structopt(name = "FILE", required_if("out-type", "file"))]
-    file_name: Option<String>,
-
-    /// Activate debug mode
-    #[structopt(short, long)]
-    debug: bool*/
 }
 
 fn error_exit(messages: Vec<constants::Message>) -> ! {
